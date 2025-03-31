@@ -1,9 +1,13 @@
 import React from 'react'
+import { Header } from './Components/Layouts/Header/Header'
+import { Main } from './Components/Layouts/Main/Main'
+
 
 export const App = () => {
   return (
     <>  
-      <h1 className='text-4xl text-green-600 font-extrabold'>Hola Mundo</h1>
+    <Header />  
+    <Main />    
     </>
   )
 }
